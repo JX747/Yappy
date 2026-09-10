@@ -239,8 +239,8 @@ if __name__ == '__main__':
     import webbrowser
     from threading import Timer
 
-    #url = "http://0.0.0.0:8050"
-    #Timer(1, lambda: webbrowser.open(url)).start()
+    url = "http://0.0.0.0:10000"
+    Timer(1, lambda: webbrowser.open(url)).start()
 
     #app.run_server(debug=True)
     app.run(debug=True)
