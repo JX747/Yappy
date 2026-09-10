@@ -242,5 +242,5 @@ if __name__ == '__main__':
     url = "http://0.0.0.0:8050"
     Timer(1, lambda: webbrowser.open(url)).start()
 
-    app.run_server(debug=True)
-    #app.run(debug=True)
+    #app.run_server(debug=True)
+    app.run(debug=True)
