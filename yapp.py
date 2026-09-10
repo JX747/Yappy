@@ -58,7 +58,7 @@ print("Model trained successfully on server startup")
 app = Dash(__name__, external_stylesheets=[dbc.themes.FLATLY])
 app.title = "Credit Default Prediction App"
 
-
+server = app:server
 # ===============================
 # ========= LAYOUT ==============
 # ===============================
