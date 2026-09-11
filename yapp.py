@@ -58,7 +58,7 @@ print("Model trained successfully on server startup")
 app = Dash(__name__, external_stylesheets=[dbc.themes.FLATLY])
 app.title = "Credit Default Prediction App"
 
-server = app:server
+server = app.server
 # ===============================
 # ========= LAYOUT ==============
 # ===============================
@@ -239,7 +239,7 @@ if __name__ == '__main__':
     import webbrowser
     from threading import Timer
 
-    url = "http://0.0.0.0:10000"
+    url = "http://0.0.0.0"
     Timer(1, lambda: webbrowser.open(url)).start()
 
     #app.run_server(debug=True)
